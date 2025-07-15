@@ -7,6 +7,11 @@
   padding: 0;  
 }
 
+.container{
+  width: 80%;
+  
+}
+
 /*ricordati di cambiarli direttamente con bootstrp*/
 main{
   background-color: black;
