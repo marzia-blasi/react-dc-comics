@@ -1,21 +1,19 @@
+import navbar from "./db/navbar";
+
 //CAMBIARE TUTTE LE CLASSI APPENA FUNZIONA COME VUOI!
 
 export default function Footer() {
   return (
     <footer>
-      <ul class="nav flex-column text-center">
-        <li class="nav-item">
-          <a class="nav-link text-white">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white">Chi siamo</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white">Servizi</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white">Contatti</a>
-        </li>
+      <ul className="nav flex-column text-center">
+        {navbar.map(({ id, title }) => {
+          if (id === 10) return false;
+          return (
+            <li className="nav-item" key={id}>
+              <a className="nav-link text-white">{title}</a>
+            </li>
+          );
+        })}
       </ul>
     </footer>
   );

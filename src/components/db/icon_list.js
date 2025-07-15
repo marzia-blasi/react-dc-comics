@@ -6,7 +6,7 @@ const iconList = [
   },
   {
     id: 2,
-    title: "DC Merchandise.png",
+    title: "DC Merchandise",
     img: "./src/assets/img/buy-comics-merchandise.png",
   },
   {

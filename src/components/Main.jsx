@@ -29,18 +29,15 @@ export default function Main() {
         <div className="load d-flex">
           <button className="btn btn-primary rounded-0 ">Load More</button>
         </div>
-        <div className="blue bg-primary">
+        <div className="blue d-flex bg-primary">
           <div className="container">
             <div className="row d-flex">
               {iconList.map(({ id, title, img }) => {
                 return (
-                  <div className="col-12 col-sm-6 col-lg-2">
+                  <div className="col-12 col-sm-6 col-lg-2" key={id}>
                     <div className="cardml d-flex">
-                      <img
-                        src="./src/assets/img/buy-comics-shop-locator.png"
-                        alt=""
-                      />
-                      <a href="">Testo qui</a>
+                      <img src={img} alt={title} />
+                      <a href="">{title}</a>
                     </div>
                   </div>
                 );
@@ -59,25 +56,18 @@ export default function Main() {
 </div>
 
 {iconList.map(({ id, title, img }) => {
-          return(<div className="col-12 col-sm-6 col-lg-3">
+          return(<div className="col-12 col-sm-6 col-lg-2">
             <div className="cardml d-flex">
               <img src="./src/assets/img/buy-comics-shop-locator.png" alt="" />
               <a href="">Testo qui</a>
             </div>
           </div>
-          
-          
-          
-          
-          
-          
-          
           )
         })}
 
 
 <div className="blue row d-flex bg-primary">
-          <div className="col-12 col-sm-6 col-lg-3">
+          <div className="col-12 col-sm-6 col-lg-2">
             <div className="cardml d-flex">
               <img src="./src/assets/img/buy-comics-shop-locator.png" alt="" />
               <a href="">Testo qui</a>
