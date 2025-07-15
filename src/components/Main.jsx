@@ -26,7 +26,7 @@ export default function Main(){
 
                     </div>
                 </div>  
-                <div><button class="btn btn-primary rounded-0">Bottone Spigolo Vivo</button>
+                <div className="load d-flex"><button class="btn btn-primary rounded-0 ">Load More</button>
 </div>
             </div>
         </main> 

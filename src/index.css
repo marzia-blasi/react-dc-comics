@@ -12,6 +12,8 @@
   
 }
 
+/*Main*/
+
 /*ricordati di cambiarli direttamente con bootstrp*/
 main{
   background-color: black;
@@ -32,3 +34,10 @@ div {
     }
   }
 }
+
+/*Bottone sooto la griglia*/
+
+
+  .load{
+    justify-content: center;
+  }
