@@ -1,8 +1,8 @@
 
-function Main(){
+export default function Main(){
 
     return (
 
-        <main></main> 
+        <main>miseria</main> 
     )
 }
