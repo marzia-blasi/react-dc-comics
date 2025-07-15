@@ -10,6 +10,9 @@
   width: 80%;
 }
 
+a {
+  color: aliceblue;
+}
 /*Main*/
 
 /*ricordati di cambiarli direttamente con bootstrp*/
@@ -41,12 +44,30 @@ div {
 
   .btn {
     padding: 0 3%;
-    margin-top: 50px;
+    margin: 50px 0;
+  }
+}
+
+/*icon list*/
+
+.blue {
+  height: 160px;
+}
+
+.cardml {
+  align-items: center;
+  img {
+    height: 50px;
+    margin: 0 5%;
+  }
+  a {
+    margin: 0;
   }
 }
 
 /*Footer*/
 
 footer {
-  background-color: blue;
+  background-image: url(./assets/img/footer-bg.jpg);
+  background-size: cover;
 }
