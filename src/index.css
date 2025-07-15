@@ -18,7 +18,7 @@ main {
   color: aliceblue;
 }
 
-/*per ora lo tengo così ma non ne sono convinta*/
+/*da aggiustare*/
 .jumbo {
   background-image: url(./assets/img/jumbotron.jpg);
   background-size: cover;
@@ -43,4 +43,10 @@ div {
     padding: 0 3%;
     margin-top: 50px;
   }
+}
+
+/*Footer*/
+
+footer {
+  background-color: blue;
 }

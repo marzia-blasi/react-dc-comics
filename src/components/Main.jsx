@@ -5,7 +5,7 @@ export default function Main() {
     <main>
       <div className="container-fluid">
         <div className="jumbo">
-          <button class="btn btn-primary rounded-0">
+          <button className="btn btn-primary rounded-0">
             Bottone Spigolo Vivo
           </button>
         </div>
@@ -26,7 +26,7 @@ export default function Main() {
           </div>
         </div>
         <div className="load d-flex">
-          <button class="btn btn-primary rounded-0 ">Load More</button>
+          <button className="btn btn-primary rounded-0 ">Load More</button>
         </div>
       </div>
     </main>
