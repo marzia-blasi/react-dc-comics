@@ -7,9 +7,23 @@
   padding: 0;  
 }
 
+/*ricordati di cambiarli direttamente con bootstrp*/
+main{
+  background-color: black;
+  color: aliceblue;
+}
+
+
 .jumbo {
   img {
    width: 100%;
   }
+}
 
+div {
+  .comics{
+    img {
+      height: 200px;
+    }
+  }
 }
