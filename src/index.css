@@ -7,3 +7,9 @@
   padding: 0;  
 }
 
+.jumbo {
+  img {
+   width: 100%;
+  }
+
+}

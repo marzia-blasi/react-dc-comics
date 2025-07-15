@@ -8,7 +8,7 @@ export default function Main(){
 
         <main>
             <div className="container-fluid">
-                <div className="jumbo">INSERIRE IMMAGINE TEEN TITANS</div>
+                <div className="jumbo"><img src="./src/assets/img/jumbotron.jpg" alt="" /></div>
 
             </div>
         </main> 
