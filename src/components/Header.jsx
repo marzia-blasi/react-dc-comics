@@ -1,3 +1,5 @@
+import navbar from "./navbar"
+
 
 export default function Header(){
 
@@ -10,16 +12,14 @@ export default function Header(){
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarText">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Features</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
-        </li>
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              
+        
+              {navbar.map(({ id, title}) => {
+             return <li className="nav-item" key={id}>
+               <a className="nav-link active" aria-current="page" href="#">{title}</a>
+              </li>
+           })}
       </ul>
       
     </div>

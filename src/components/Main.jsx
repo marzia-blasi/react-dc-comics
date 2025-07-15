@@ -8,7 +8,7 @@ export default function Main(){
 
         <main>
             <div className="container-fluid">
-                <div className="jumbo"><img src="./src/assets/img/jumbotron.jpg" alt="" /></div>
+                <div className="jumbo"><button class="btn btn-primary rounded-0">Bottone Spigolo Vivo</button></div>
                 <div className="container">
                     <div className="row d-flex">
                         
@@ -25,7 +25,9 @@ export default function Main(){
                         
 
                     </div>
-                </div>    
+                </div>  
+                <div><button class="btn btn-primary rounded-0">Bottone Spigolo Vivo</button>
+</div>
             </div>
         </main> 
     )
