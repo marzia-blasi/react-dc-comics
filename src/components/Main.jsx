@@ -1,9 +1,14 @@
 import comics from "./db/comics";
 import iconList from "./db/icon_list";
+import Testbenedetto from "./props/testbenedetto";
+import Card from "./props/Card";
 
 export default function Main() {
   return (
     <main>
+      <div>
+        <Testbenedetto name="name" />
+      </div>
       <div className="container-fluid">
         <div className="jumbo">
           <button className="btn btn-primary rounded-0">
@@ -13,16 +18,7 @@ export default function Main() {
         <div className="container">
           <div className="row d-flex">
             {comics.map(({ id, title, thumb }) => {
-              return (
-                <div className="comics col-12 col-sm-6 col-lg-3" key={id}>
-                  <div className="cardm">
-                    <div>
-                      <img src={thumb} alt={title} />
-                    </div>
-                    <div className="title">{title}</div>
-                  </div>
-                </div>
-              );
+              return <Card key={id} title={title} thumb={thumb} />;
             })}
           </div>
         </div>
@@ -74,4 +70,21 @@ export default function Main() {
             </div>
           </div>
         </div>
+
+{comics.map(({ id, title, thumb }) => {
+              return (
+                <div className="comics col-12 col-sm-6 col-lg-3" key={id}>
+                  <div className="cardm">
+                    <div>
+                      <img src={thumb} alt={title} />
+                    </div>
+                    <div className="title">{title}</div>
+                  </div>
+                </div>
+              );
+            })}
+
+
+
+
 */
